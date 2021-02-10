@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1aae7408-21a1-4ec8-b9d3-9e5006ad6b99" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/css/backgrounds.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/buttons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/navbars.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/style.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/texts.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/typography.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/Montserrat-Bold.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/Montserrat-Bold.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/Montserrat-Bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/Montserrat-Bold.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/Montserrat-Bold.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/MuseoSansCyrl-100.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/MuseoSansCyrl-100.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/MuseoSansCyrl-100.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/MuseoSansCyrl-100.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/MuseoSansCyrl-100.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/MuseoSansCyrl-500.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/MuseoSansCyrl-500.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/MuseoSansCyrl-500.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/MuseoSansCyrl-500.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/MuseoSansCyrl-500.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/MuseoSansCyrl-700.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/MuseoSansCyrl-700.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/MuseoSansCyrl-700.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/MuseoSansCyrl-700.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/MuseoSansCyrl-700.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/MuseoSansCyrl-900.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/MuseoSansCyrl-900.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/MuseoSansCyrl-900.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/MuseoSansCyrl-900.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/MuseoSansCyrl-900.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/OpenSans-Light.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/OpenSans-Light.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/OpenSans-Light.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/OpenSans-Light.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/OpenSans-Light.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/bootstrap.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/bootstrap.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/scripts.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+        <option value="SCSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1oIFCjAaGnBKHYnFytPtyVIv7eL" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="SCSS" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/fonts" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/js" />
+      <recent name="$PROJECT_DIR$/css" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1aae7408-21a1-4ec8-b9d3-9e5006ad6b99" name="Default Changelist" comment="" />
+      <created>1612966072308</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1612966072308</updated>
+      <workItem from="1612966073908" duration="256000" />
+      <workItem from="1612966375831" duration="91000" />
+      <workItem from="1612966495464" duration="169000" />
+      <workItem from="1612966703120" duration="19000" />
+      <workItem from="1612966734760" duration="105000" />
+      <workItem from="1612966852989" duration="560000" />
+      <workItem from="1612968320969" duration="1077000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="389" y="227" key="EditFileWatcherDialog" timestamp="1612966143500">
+      <screen x="0" y="23" width="1440" height="838" />
+    </state>
+    <state x="389" y="227" key="EditFileWatcherDialog/0.23.1440.838@0.23.1440.838" timestamp="1612966143500" />
+  </component>
+</project>
