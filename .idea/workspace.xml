@@ -2,50 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1aae7408-21a1-4ec8-b9d3-9e5006ad6b99" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/css/backgrounds.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/buttons.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/mixins.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/navbars.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/style.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/texts.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/typography.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/variables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/Montserrat-Bold.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/Montserrat-Bold.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/Montserrat-Bold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/Montserrat-Bold.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/Montserrat-Bold.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/MuseoSansCyrl-100.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/MuseoSansCyrl-100.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/MuseoSansCyrl-100.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/MuseoSansCyrl-100.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/MuseoSansCyrl-100.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/MuseoSansCyrl-500.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/MuseoSansCyrl-500.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/MuseoSansCyrl-500.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/MuseoSansCyrl-500.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/MuseoSansCyrl-500.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/MuseoSansCyrl-700.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/MuseoSansCyrl-700.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/MuseoSansCyrl-700.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/MuseoSansCyrl-700.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/MuseoSansCyrl-700.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/MuseoSansCyrl-900.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/MuseoSansCyrl-900.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/MuseoSansCyrl-900.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/MuseoSansCyrl-900.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/MuseoSansCyrl-900.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/OpenSans-Light.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/OpenSans-Light.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/OpenSans-Light.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/OpenSans-Light.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/OpenSans-Light.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/bootstrap.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/bootstrap.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/scripts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/backgrounds.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/backgrounds.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/buttons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/buttons.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/navbars.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/navbars.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/navbars.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/navbars.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/navbars.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/navbars.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/texts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/texts.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/typography.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/typography.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/variables.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,7 +71,15 @@
       <workItem from="1612966703120" duration="19000" />
       <workItem from="1612966734760" duration="105000" />
       <workItem from="1612966852989" duration="560000" />
-      <workItem from="1612968320969" duration="1077000" />
+      <workItem from="1612968320969" duration="1384000" />
+      <workItem from="1612970261924" duration="156000" />
+      <workItem from="1612970431069" duration="181000" />
+      <workItem from="1612970690406" duration="27000" />
+      <workItem from="1612970735771" duration="266000" />
+      <workItem from="1612971015155" duration="92000" />
+      <workItem from="1612971122427" duration="313000" />
+      <workItem from="1612971538895" duration="9091000" />
+      <workItem from="1612985023173" duration="24762000" />
     </task>
     <servers />
   </component>
@@ -114,5 +91,9 @@
       <screen x="0" y="23" width="1440" height="838" />
     </state>
     <state x="389" y="227" key="EditFileWatcherDialog/0.23.1440.838@0.23.1440.838" timestamp="1612966143500" />
+    <state x="385" y="237" key="run.anything.popup" timestamp="1613119065590">
+      <screen x="0" y="23" width="1440" height="838" />
+    </state>
+    <state x="385" y="237" key="run.anything.popup/0.23.1440.838@0.23.1440.838" timestamp="1613119065590" />
   </component>
 </project>

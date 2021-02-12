@@ -1,0 +1,32 @@
+@import "variables";
+
+// ------------------------
+// Bootstrap navbars
+// ------------------------
+.navbar-nav .nav-item .nav-link {
+  font-family: $font-family-montserrat;
+  font-size: 14px;
+  color: $white-color;
+  line-height: 24px;
+  text-transform: uppercase;
+  margin: 26px 16px;
+  padding: 0;
+  display: inline-block;
+  position: relative;
+  &:after {
+    content: "";
+    display: block;
+    height: 3px;
+    width: 0;
+    background-color: $yellow-color;
+    transition: 0.5s;
+    position: absolute;
+    top: -10px;
+  }
+  &:hover {
+    color: $white-color;
+  }
+  &:hover:after {
+    width: 100%;
+  }
+}

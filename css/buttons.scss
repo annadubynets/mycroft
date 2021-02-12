@@ -1,0 +1,31 @@
+@import "variables";
+@import "mixins";
+
+// ------------------------
+// Bootstrap buttons
+// ------------------------
+.btn:active, .btn:focus{
+  outline: none!important;
+  box-shadow: none;
+}
+
+.btn {
+  font-family: $font-family-museo-700;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+  cursor: pointer;
+  text-align: center;
+  padding: 22px 41px 22px 28px;
+}
+
+.btn-warning {
+  background-color: $yellow-color;
+  border: none;
+  color: $black-color-14;
+  &:hover {
+    background-color: #FFCC25;
+    box-shadow: 0 0 8px rgba(255, 212, 70, 0.9);
+  }
+}
+

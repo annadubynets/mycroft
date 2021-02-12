@@ -1,3 +1,16 @@
+.navbar-nav .nav-item .nav-link {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  color: #ffffff;
+  line-height: 24px;
+  text-transform: uppercase;
+  margin: 26px 16px;
+  padding: 0;
+  display: inline-block;
+}
 
+.navbar-nav .nav-item .nav-link:hover, .navbar-nav .nav-item .nav-link:focus {
+  color: #ffc400;
+}
 
 /*# sourceMappingURL=navbars.css.map */

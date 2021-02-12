@@ -102,7 +102,8 @@ body {
   font-weight: 500;
   font-size: 14px;
   line-height: 24px;
-  color: $black-color-40;
+  padding: 0;
+  margin: 0;
 }
 
 * {
@@ -121,6 +122,10 @@ button:focus {
   outline: none;
 }
 
+ul {
+  list-style: none;
+}
+
 a:focus,
 a:hover {
   text-decoration: none;
@@ -132,10 +137,16 @@ a {
   display: inline-block;
 }
 
+button {
+  display: block;
+}
+
 h1,
-h2 {
+h2,
+h3 {
   font-family: $font-family-museo-700;
   font-weight: 700;
+  font-style: normal;
 }
 
 h1,
@@ -152,16 +163,41 @@ h2 {
   color: $black-color-29;
 }
 
+h3 {
+  font-size: 24px;
+  color: $black-color;
+}
+
 p {
   font-family: $font-family-museo-500;
-  font-weight: 400;
+  font-weight: 500;
   color: $black-color-40;
   font-size: 14px;
   line-height: 24px;
   margin: 0;
 }
 
-.mt-216 {
-  margin-top: 216px !important;
+.font-weight-900 {
+  font-weight: 900!important;
+}
+
+.mt-246 {
+  margin-top: 246px!important;
+}
+
+.mb-187 {
+  margin-bottom: 187px!important;
+}
+
+.pt-120 {
+  padding-top: 120px!important;
+}
+
+.mb-40 {
+  margin-bottom: 40px!important;
+}
+
+.pb-187 {
+  padding-bottom: 187px!important;
 }
 
