@@ -27,13 +27,21 @@
   }
 }
 
-header video {
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  min-width: 100%;
-  min-height: 100%;
-  clip-path: polygon(0 0, 100% 0, 100% 85%, 50% 100%, 0% 85%);
+header {
+  .header-decor {
+    height: 697px;
+    left: -10px;
+    top: -150px;
+    object-fit: contain;
+  }
+  video {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    clip-path: polygon(0 0, 100% 0, 100% 85%, 50% 100%, 0% 85%);
+  }
 }
 
 .about-us {
@@ -91,7 +99,7 @@ header video {
   }
 
   .delivery-style {
-    background-image: url("../images/group-8.svg");
+    background-image: url("../images/delivery_icon.svg");
     background-repeat: no-repeat;
     background-position: center;
     position: relative;
@@ -100,7 +108,7 @@ header video {
   }
 
   .design-style {
-    background-image: url("../images/group-4.svg");
+    background-image: url("../images/design_icon.svg");
     background-repeat: no-repeat;
     background-position: center;
     position: relative;
@@ -109,7 +117,7 @@ header video {
   }
 
   .team-style {
-    background-image: url("../images/group-6.svg");
+    background-image: url("../images/team_icon.svg");
     background-repeat: no-repeat;
     background-position: center;
     position: relative;
