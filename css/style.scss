@@ -60,19 +60,13 @@ header video {
       font-size: 18px;
       line-height: 1.56;
     }
-    &:before {
-      content: "";
-      background-image: url("../images/about_decor.png");
-      background-size: cover;
-      background-repeat: no-repeat;
-      background-position: right;
-      width: 100%;
+    img {
       height: 451px;
-      opacity: 0.3;
-      position: absolute;
-      top: -70px;
-      left: -236px;
       z-index: -1;
+      left: -250px;
+      top: -90px;
+      object-fit: contain;
+      opacity: 0.3;
     }
   }
 }
@@ -125,6 +119,13 @@ header video {
 }
 
 .team {
+  .team-decor {
+    height: 410px;
+    z-index: -1;
+    left: -318px;
+    top: -246px;
+    object-fit: contain;
+  }
   &:before {
     content: "";
     background-image: url("../images/team_bg.png");

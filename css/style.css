@@ -292,19 +292,13 @@ header video {
   font-size: 18px;
   line-height: 1.56;
 }
-.about-us .about-card:before {
-  content: "";
-  background-image: url("../images/about_decor.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: right;
-  width: 100%;
+.about-us .about-card img {
   height: 451px;
-  opacity: 0.3;
-  position: absolute;
-  top: -70px;
-  left: -236px;
   z-index: -1;
+  left: -250px;
+  top: -90px;
+  object-fit: contain;
+  opacity: 0.3;
 }
 
 .services .services-description {
@@ -348,6 +342,13 @@ header video {
   height: 80px;
 }
 
+.team .team-decor {
+  height: 410px;
+  z-index: -1;
+  left: -318px;
+  top: -246px;
+  object-fit: contain;
+}
 .team:before {
   content: "";
   background-image: url("../images/team_bg.png");
