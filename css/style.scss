@@ -27,25 +27,13 @@
   }
 }
 
-//header {
-//  &:after {
-//    content: "";
-//    clip-path: polygon(100% 0, 0 0, 54% 16%);
-//    position: absolute;
-//    background-color: #15201e;
-//    width: 100%;
-//    height: 100%;
-//    bottom: -729px;
-//    left: 0;
-//  }
-//}
-
 header video {
   position: absolute;
   bottom: 0;
   right: 0;
   min-width: 100%;
   min-height: 100%;
+  clip-path: polygon(0 0, 100% 0, 100% 85%, 50% 100%, 0% 85%);
 }
 
 .about-us {
@@ -58,7 +46,7 @@ header video {
     height: 980px;
     position: absolute;
     right: 0;
-    top: -245px;
+    top: -371px;
   }
 
   .about-card {
