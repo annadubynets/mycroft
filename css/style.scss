@@ -27,6 +27,14 @@
   }
 }
 
+header video {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
 .about-us {
   &:before {
     content: "";
@@ -41,7 +49,7 @@
   }
 
   .about-card {
-    background-image: url("../images/path-14.png");
+    background-image: url("../images/about.png");
     background-size: contain;
     background-repeat: no-repeat;
     height: 225px;
@@ -50,6 +58,20 @@
       font-weight: 900;
       font-size: 18px;
       line-height: 1.56;
+    }
+    &:before {
+      content: "";
+      background-image: url("../images/about_decor.png");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: right;
+      width: 100%;
+      height: 451px;
+      opacity: 0.3;
+      position: absolute;
+      top: -70px;
+      left: -236px;
+      z-index: -1;
     }
   }
 }
