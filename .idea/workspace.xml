@@ -2,17 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1aae7408-21a1-4ec8-b9d3-9e5006ad6b99" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/typography.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/typography.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/group-4.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/group-6.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/group-8.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/group-9.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/group.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +68,7 @@
       <workItem from="1612971015155" duration="92000" />
       <workItem from="1612971122427" duration="313000" />
       <workItem from="1612971538895" duration="9091000" />
-      <workItem from="1612985023173" duration="31190000" />
+      <workItem from="1612985023173" duration="31348000" />
     </task>
     <servers />
   </component>
