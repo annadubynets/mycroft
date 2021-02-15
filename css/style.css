@@ -130,6 +130,10 @@ button {
   display: block;
 }
 
+.custom-select:not(:disabled) {
+  background: url("../images/select_down.svg") no-repeat 94%, #FFFFFF !important;
+}
+
 h1,
 h2,
 h3 {
@@ -386,15 +390,25 @@ header video {
   width: 100%;
 }
 .contact-us .form-control {
+  color: #0c112f;
+  font-family: "Museo Sans Cyrl 100", sans-serif;
+  font-size: 14px;
   box-sizing: border-box;
   background-color: #ffffff;
   border-radius: 1px;
   border: none;
+  padding: 16px 20px;
+  height: 100%;
+}
+.contact-us .form-control::placeholder {
   color: #0c112f;
   font-family: "Museo Sans Cyrl 100", sans-serif;
   font-size: 14px;
-  padding: 16px 20px;
-  height: 100%;
+}
+.contact-us .custom-select {
+  color: #0c112f;
+  font-family: "Museo Sans Cyrl 100", sans-serif;
+  font-size: 14px;
 }
 .contact-us .country-title p {
   font-family: "Museo Sans Cyrl 700", sans-serif;

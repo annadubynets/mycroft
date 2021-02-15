@@ -166,16 +166,28 @@ header {
     left: 0;
     width: 100%;
   }
+  
   .form-control {
+    color: $black-color-12;
+    font-family: $font-family-museo-100;
+    font-size: 14px;
     box-sizing: border-box;
     background-color: $white-color;
     border-radius: 1px;
     border: none;
+    padding: 16px 20px;
+    height: 100%;
+    &::placeholder {
+      color: $black-color-12;
+      font-family: $font-family-museo-100;
+      font-size: 14px;
+    }
+  }
+
+  .custom-select {
     color: $black-color-12;
     font-family: $font-family-museo-100;
     font-size: 14px;
-    padding: 16px 20px;
-    height: 100%;
   }
 
   .country-title p {

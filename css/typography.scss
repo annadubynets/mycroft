@@ -141,6 +141,10 @@ button {
   display: block;
 }
 
+.custom-select:not(:disabled) {
+  background: url("../images/select_down.svg") no-repeat 94%, #FFFFFF!important;
+}
+
 h1,
 h2,
 h3 {
