@@ -278,6 +278,11 @@ header video {
   min-height: 100%;
   clip-path: polygon(0 0, 100% 0, 100% 85%, 50% 100%, 0% 85%);
 }
+@media screen and (max-width: 1200px) {
+  header video {
+    clip-path: none;
+  }
+}
 
 .about-us:before {
   content: "";
