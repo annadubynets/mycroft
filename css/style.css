@@ -264,19 +264,45 @@ p {
   background-color: #ffc400 !important;
 }
 
+header {
+  height: 690px;
+}
 header .header-decor {
   height: 697px;
   left: -10px;
   top: -150px;
   object-fit: contain;
 }
+header:after {
+  display: block;
+  content: "";
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+  width: 50%;
+  border-bottom: 50px solid #F6F6F6;
+  border-left: 50vw solid transparent;
+}
+header:before {
+  display: block;
+  content: "";
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  width: 50%;
+  z-index: 1;
+  border-bottom: 50px solid white;
+  border-right: 50vw solid transparent;
+}
 header video {
   position: absolute;
+  top: 0px;
   bottom: 0;
   right: 0;
   width: 100%;
-  min-height: 100%;
-  clip-path: polygon(0 0, 100% 0, 100% 85%, 50% 100%, 0% 85%);
+  min-height: 690px;
+  max-height: 690px;
+  object-fit: cover;
 }
 @media screen and (max-width: 1400px) {
   header video {
@@ -285,14 +311,33 @@ header video {
 }
 
 .about-us {
-  background-image: url("../images/about_bg.png");
-  background-size: cover;
+  background-color: #F6F6F6;
   object-fit: contain;
   background-repeat: no-repeat;
   width: 100%;
-  height: 980px;
-  padding-top: 277px;
-  margin-top: -8.5%;
+  padding-top: 64px;
+  padding-bottom: 210px;
+}
+.about-us:before {
+  display: block;
+  content: "";
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 50%;
+  z-index: 1;
+  border-bottom: 50px solid #F6F6F6;
+  border-left: 50vw solid white;
+}
+.about-us:after {
+  display: block;
+  content: "";
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+  width: 50%;
+  border-bottom: 100px solid white;
+  border-left: 100vw solid transparent;
 }
 .about-us .about-card {
   background-image: url("../images/about.png");
@@ -315,21 +360,8 @@ header video {
   opacity: 0.3;
 }
 
-@media screen and (max-width: 1400px) {
-  .about-us {
-    margin-top: 0;
-    background-image: url("../images/about_bg_middle.png");
-  }
-}
-@media screen and (max-width: 1200px) {
-  .about-us {
-    margin-top: -0.5%;
-  }
-}
-@media screen and (max-width: 375px) {
-  .about-us {
-    background-image: url("../images/about_bg_mobile.png");
-  }
+.services {
+  padding-bottom: 120px;
 }
 .services .services-description {
   font-family: "Museo Sans Cyrl 900", sans-serif;
@@ -372,34 +404,27 @@ header video {
   height: 80px;
 }
 
+.team {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+.team:after {
+  display: block;
+  content: "";
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+  width: 100%;
+  border-bottom: 100px solid #15201e;
+  border-right: 100vw solid transparent;
+  z-index: 1;
+}
 .team .team-decor {
   height: 410px;
-  z-index: -1;
-  left: -318px;
-  top: -246px;
+  z-index: 1;
+  left: -320px;
+  top: -132px;
   object-fit: contain;
-}
-.team:before {
-  content: "";
-  background-image: url("../images/team_bg.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  object-fit: contain;
-  height: 980px;
-  width: 100%;
-  position: absolute;
-  right: 0;
-  top: -245px;
-}
-@media screen and (max-width: 1200px) {
-  .team:before {
-    background-image: url("../images/team_bg_middle.png");
-  }
-}
-@media screen and (max-width: 375px) {
-  .team:before {
-    background-image: url("../images/team_bg_mobile.png");
-  }
 }
 .team .team-img-decor {
   display: block;
@@ -409,15 +434,40 @@ header video {
   border: solid 4px #ffc400;
   left: 60px;
 }
-
-.contact-us .contact-us-bg {
-  background-color: #15201e;
-  clip-path: polygon(0 0, 100% 16%, 100% 100%, 0 100%);
-  height: 100%;
+.team .team-bg {
+  background-image: url("../images/team_bg_middle.png");
+  top: 0px;
+  z-index: 0;
+}
+.team .team-bg:before {
+  display: block;
+  content: "";
   position: absolute;
-  top: 0;
-  left: 0;
+  left: 0px;
+  top: 0px;
   width: 100%;
+  z-index: 1;
+  border-bottom: 100px solid transparent;
+  border-left: 100vw solid white;
+}
+.team .team-bg:after {
+  display: block;
+  content: "";
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  width: 100%;
+  z-index: 1;
+  border-top: 100px solid transparent;
+  border-right: 100vw solid white;
+}
+
+.contact-us {
+  background-color: #15201e;
+  height: 100%;
+  width: 100%;
+  padding-top: 110px;
+  padding-bottom: 85px;
 }
 .contact-us .form-control {
   color: #0c112f;
