@@ -173,29 +173,12 @@ p {
   font-weight: 900 !important;
 }
 
-.mt-246 {
-  margin-top: 246px !important;
-}
-
-@media screen and (max-width: 768px) {
-  .mt-246 {
-    margin-top: 0px !important;
-  }
-}
 .mb-156 {
   margin-bottom: 156px !important;
 }
 
-.pt-120 {
-  padding-top: 120px !important;
-}
-
 .mb-40 {
   margin-bottom: 40px !important;
-}
-
-.pb-184 {
-  padding-bottom: 184px !important;
 }
 
 .navbar-nav .nav-item .nav-link {
