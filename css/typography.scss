@@ -189,6 +189,12 @@ p {
   margin-top: 246px!important;
 }
 
+@media screen and (max-width: 768px) {
+  .mt-246 {
+    margin-top: 0px!important;
+  }
+}
+
 .mb-156 {
   margin-bottom: 156px!important;
 }

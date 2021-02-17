@@ -177,6 +177,11 @@ p {
   margin-top: 246px !important;
 }
 
+@media screen and (max-width: 768px) {
+  .mt-246 {
+    margin-top: 0px !important;
+  }
+}
 .mb-156 {
   margin-bottom: 156px !important;
 }
@@ -361,7 +366,7 @@ header video {
 }
 
 .services {
-  padding-bottom: 120px;
+  padding-bottom: 180px;
 }
 .services .services-description {
   font-family: "Museo Sans Cyrl 900", sans-serif;
@@ -435,7 +440,9 @@ header video {
   left: 60px;
 }
 .team .team-bg {
-  background-image: url("../images/team_bg_middle.png");
+  background-image: url("../images/team_bg.png");
+  background-position: center;
+  background-repeat: no-repeat;
   top: 0px;
   z-index: 0;
 }

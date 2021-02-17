@@ -125,7 +125,7 @@ header {
 }
 
 .services {
-  padding-bottom: 120px;
+  padding-bottom: 180px;
   .services-description {
     font-family: $font-family-museo-900;
     font-weight: 900;
@@ -202,7 +202,9 @@ header {
     left: 60px;
   }
   .team-bg {
-    background-image: url("../images/team_bg_middle.png");
+    background-image: url("../images/team_bg.png");
+    background-position: center;
+    background-repeat: no-repeat;
     top: 0px;
     z-index: 0;
     &:before {
