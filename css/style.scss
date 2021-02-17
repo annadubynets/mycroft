@@ -38,11 +38,11 @@ header {
     position: absolute;
     bottom: 0;
     right: 0;
-    min-width: 100%;
+    width: 100%;
     min-height: 100%;
     clip-path: polygon(0 0, 100% 0, 100% 85%, 50% 100%, 0% 85%);
   }
-  @media screen and (max-width: $xl-screen) {
+  @media screen and (max-width: 1400px) {
     video {
       clip-path: none;
     }
@@ -50,17 +50,14 @@ header {
 }
 
 .about-us {
-  &:before {
-    content: "";
-    background-image: url("../images/about_bg.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 980px;
-    position: absolute;
-    right: 0;
-    top: -368px;
-  }
+  background-image: url("../images/about_bg.png");
+  background-size: cover;
+  object-fit: contain;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 980px;
+  padding-top: 277px;
+  margin-top: -8.5%;
 
   .about-card {
     background-image: url("../images/about.png");
@@ -81,6 +78,25 @@ header {
       object-fit: contain;
       opacity: 0.3;
     }
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  .about-us {
+    margin-top: 0;
+    background-image: url("../images/about_bg_middle.png");
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .about-us {
+    margin-top: -0.5%;
+  }
+}
+
+@media screen and (max-width: $xs-screen) {
+  .about-us {
+    background-image: url("../images/about_bg_mobile.png");
   }
 }
 
@@ -151,6 +167,19 @@ header {
     right: 0;
     top: -245px;
   }
+
+  @media screen and (max-width: $xl-screen) {
+    &:before {
+      background-image: url("../images/team_bg_middle.png");
+    }
+  }
+
+  @media screen and (max-width: $xs-screen) {
+    &:before {
+      background-image: url("../images/team_bg_mobile.png");
+    }
+  }
+
   .team-img-decor {
     display: block;
     position: absolute;

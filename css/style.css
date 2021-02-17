@@ -274,26 +274,25 @@ header video {
   position: absolute;
   bottom: 0;
   right: 0;
-  min-width: 100%;
+  width: 100%;
   min-height: 100%;
   clip-path: polygon(0 0, 100% 0, 100% 85%, 50% 100%, 0% 85%);
 }
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1400px) {
   header video {
     clip-path: none;
   }
 }
 
-.about-us:before {
-  content: "";
+.about-us {
   background-image: url("../images/about_bg.png");
   background-size: cover;
+  object-fit: contain;
   background-repeat: no-repeat;
   width: 100%;
   height: 980px;
-  position: absolute;
-  right: 0;
-  top: -368px;
+  padding-top: 277px;
+  margin-top: -8.5%;
 }
 .about-us .about-card {
   background-image: url("../images/about.png");
@@ -316,6 +315,22 @@ header video {
   opacity: 0.3;
 }
 
+@media screen and (max-width: 1400px) {
+  .about-us {
+    margin-top: 0;
+    background-image: url("../images/about_bg_middle.png");
+  }
+}
+@media screen and (max-width: 1200px) {
+  .about-us {
+    margin-top: -0.5%;
+  }
+}
+@media screen and (max-width: 375px) {
+  .about-us {
+    background-image: url("../images/about_bg_mobile.png");
+  }
+}
 .services .services-description {
   font-family: "Museo Sans Cyrl 900", sans-serif;
   font-weight: 900;
@@ -375,6 +390,16 @@ header video {
   position: absolute;
   right: 0;
   top: -245px;
+}
+@media screen and (max-width: 1200px) {
+  .team:before {
+    background-image: url("../images/team_bg_middle.png");
+  }
+}
+@media screen and (max-width: 375px) {
+  .team:before {
+    background-image: url("../images/team_bg_mobile.png");
+  }
 }
 .team .team-img-decor {
   display: block;
