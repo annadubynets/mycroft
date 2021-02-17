@@ -442,6 +442,7 @@ header video {
 .team .team-bg {
   background-image: url("../images/team_bg.png");
   background-position: center;
+  background-size: cover;
   background-repeat: no-repeat;
   top: 0px;
   z-index: 0;
@@ -467,6 +468,16 @@ header video {
   z-index: 1;
   border-top: 100px solid transparent;
   border-right: 100vw solid white;
+}
+@media screen and (max-width: 768px) {
+  .team team-bg {
+    background-image: url("../images/team_bg_middle.png");
+  }
+}
+@media screen and (max-width: 414px) {
+  .team team-bg {
+    background-image: url("../images/team_bg_mobile.png");
+  }
 }
 
 .contact-us {
