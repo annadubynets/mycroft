@@ -333,6 +333,7 @@ header {
 @media screen and (max-width: 414px) {
   .contact-us {
     padding-top: 42px;
+    padding-bottom: 42px;
   }
 }
 
@@ -374,6 +375,13 @@ footer {
     padding-bottom: 50px;
     border-bottom: 1px solid #393B3F;
   }
+
+  @media screen and (max-width: 414px) {
+    .footer-top {
+      padding-top: 42px;
+    }
+  }
+
   .footer-bottom {
     padding-top: 29px;
     padding-bottom: 43px;
