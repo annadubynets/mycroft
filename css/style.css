@@ -149,6 +149,12 @@ h1 {
   margin: 0px;
 }
 
+@media screen and (max-width: 992px) {
+  h1 {
+    font-size: 42px;
+    line-height: 60px;
+  }
+}
 h2 {
   font-size: 36px;
   line-height: 54px;
@@ -177,6 +183,11 @@ p {
   margin-bottom: 156px !important;
 }
 
+@media screen and (max-width: 1024px) {
+  .mb-156 {
+    margin-bottom: 76px !important;
+  }
+}
 .mb-40 {
   margin-bottom: 40px !important;
 }
@@ -261,6 +272,16 @@ header .header-decor {
   top: -150px;
   object-fit: contain;
 }
+@media screen and (max-width: 476px) {
+  header .header-decor {
+    top: -195px;
+  }
+}
+@media screen and (max-width: 320px) {
+  header .header-decor {
+    top: -218px;
+  }
+}
 header:after {
   display: block;
   content: "";
@@ -295,15 +316,26 @@ header video {
 @media screen and (max-width: 1400px) {
   header video {
     clip-path: none;
+    max-height: 660px;
+  }
+}
+@media screen and (max-width: 768px) {
+  header video {
+    max-height: 660px;
   }
 }
 
+@media screen and (max-width: 768px) {
+  header {
+    height: 660px;
+  }
+}
 .about-us {
   background-color: #F6F6F6;
   object-fit: contain;
   background-repeat: no-repeat;
   width: 100%;
-  padding-top: 64px;
+  padding-top: 84px;
   padding-bottom: 210px;
 }
 .about-us:before {
@@ -348,6 +380,11 @@ header video {
   opacity: 0.3;
 }
 
+@media screen and (max-width: 414px) {
+  .about-us {
+    padding-bottom: 110px;
+  }
+}
 .services {
   padding-bottom: 180px;
 }
@@ -392,6 +429,11 @@ header video {
   height: 80px;
 }
 
+@media screen and (max-width: 414px) {
+  .services {
+    padding-bottom: 90px;
+  }
+}
 .team {
   padding-top: 120px;
   padding-bottom: 120px;
@@ -413,6 +455,11 @@ header video {
   left: -320px;
   top: -132px;
   object-fit: contain;
+}
+@media screen and (max-width: 414px) {
+  .team .team-decor {
+    left: -80px;
+  }
 }
 .team .team-img-decor {
   display: block;
@@ -453,12 +500,12 @@ header video {
   border-right: 100vw solid white;
 }
 @media screen and (max-width: 768px) {
-  .team team-bg {
+  .team .team-bg {
     background-image: url("../images/team_bg_middle.png");
   }
 }
 @media screen and (max-width: 414px) {
-  .team team-bg {
+  .team .team-bg {
     background-image: url("../images/team_bg_mobile.png");
   }
 }
@@ -509,6 +556,11 @@ header video {
   background-color: #ffc400 !important;
 }
 
+@media screen and (max-width: 414px) {
+  .contact-us {
+    padding-top: 42px;
+  }
+}
 footer .social-link {
   display: inline-block;
   width: 40px;

@@ -35,6 +35,16 @@ header {
     top: -150px;
     object-fit: contain;
   }
+  @media screen and (max-width: 476px) {
+    .header-decor {
+      top: -195px;
+    }
+  }
+  @media screen and (max-width: 320px) {
+    .header-decor {
+      top: -218px;
+    }
+  }
   &:after {
     display: block;
     content: '';
@@ -69,7 +79,19 @@ header {
   @media screen and (max-width: 1400px) {
     video {
       clip-path: none;
+      max-height: 660px;
     }
+  }
+  @media screen and (max-width: 768px) {
+    video {
+      max-height: 660px;
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  header {
+    height: 660px;
   }
 }
 
@@ -78,7 +100,7 @@ header {
   object-fit: contain;
   background-repeat: no-repeat;
   width: 100%;
-  padding-top: 64px;
+  padding-top: 84px;
   padding-bottom: 210px;
   &:before {
     display: block;
@@ -121,6 +143,12 @@ header {
       object-fit: contain;
       opacity: 0.3;
     }
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .about-us {
+    padding-bottom: 110px;
   }
 }
 
@@ -171,6 +199,11 @@ header {
     height: 80px;
   }
 }
+@media screen and (max-width: 414px) {
+  .services {
+    padding-bottom: 90px;
+  }
+}
 
 .team {
   padding-top: 120px;
@@ -192,6 +225,11 @@ header {
     left: -320px;
     top: -132px;
     object-fit: contain;
+  }
+  @media screen and (max-width: 414px) {
+    .team-decor {
+      left: -80px;
+    }
   }
   .team-img-decor {
     display: block;
@@ -232,12 +270,12 @@ header {
     }
   }
   @media screen and (max-width: 768px) {
-    team-bg {
+    .team-bg {
       background-image: url("../images/team_bg_middle.png");
     }
   }
   @media screen and (max-width: 414px) {
-    team-bg {
+    .team-bg {
       background-image: url("../images/team_bg_mobile.png");
     }
   }
@@ -289,6 +327,12 @@ header {
       height: 27px;
       background-color: $yellow-color !important;
     }
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .contact-us {
+    padding-top: 42px;
   }
 }
 
