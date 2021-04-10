@@ -35,7 +35,7 @@ header {
     top: -150px;
     object-fit: contain;
   }
-  @media screen and (max-width: 476px) {
+  @media screen and (max-width: 576px) {
     .header-decor {
       top: -195px;
     }
@@ -146,7 +146,7 @@ header {
   }
 }
 
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 576px) {
   .about-us {
     padding-bottom: 110px;
   }
@@ -199,7 +199,7 @@ header {
     height: 80px;
   }
 }
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 576px) {
   .services {
     padding-bottom: 90px;
   }
@@ -226,7 +226,7 @@ header {
     top: -132px;
     object-fit: contain;
   }
-  @media screen and (max-width: 414px) {
+  @media screen and (max-width: 576px) {
     .team-decor {
       left: -80px;
     }
@@ -274,7 +274,7 @@ header {
       background-image: url("../images/team_bg_middle.png");
     }
   }
-  @media screen and (max-width: 414px) {
+  @media screen and (max-width: 576px) {
     .team-bg {
       background-image: url("../images/team_bg_mobile.png");
     }
@@ -330,7 +330,7 @@ header {
   }
 }
 
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 576px) {
   .contact-us {
     padding-top: 42px;
     padding-bottom: 42px;
@@ -376,7 +376,7 @@ footer {
     border-bottom: 1px solid #393B3F;
   }
 
-  @media screen and (max-width: 414px) {
+  @media screen and (max-width: 576px) {
     .footer-top {
       padding-top: 42px;
     }

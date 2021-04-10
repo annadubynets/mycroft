@@ -192,17 +192,17 @@ p {
   font-weight: 900!important;
 }
 
-.mb-156 {
-  margin-bottom: 156px!important;
-}
-
-@media screen and (max-width: 1024px) {
-  .mb-156 {
-    margin-bottom: 76px!important;
-  }
-}
-
 .mb-40 {
   margin-bottom: 40px!important;
+}
+
+.pt-280 {
+  padding-top: 280px!important;
+}
+
+@media screen and (max-width: 768px) {
+  .pt-280 {
+    padding-top: 140px!important;
+  }
 }
 
