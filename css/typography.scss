@@ -1,5 +1,5 @@
 @font-face {
-  font-family: 'Museo Sans Cyrl 900';
+  font-family: 'Museo Sans Cyrl';
   src: url('../fonts/MuseoSansCyrl-900.eot');
   src: url('../fonts/MuseoSansCyrl-900.eot?#iefix') format('embedded-opentype'),
   url('../fonts/MuseoSansCyrl-900.woff2') format('woff2'),
@@ -12,7 +12,7 @@
 }
 
 @font-face {
-  font-family: 'Museo Sans Cyrl 700';
+  font-family: 'Museo Sans Cyrl';
   src: url('../fonts/MuseoSansCyrl-700.eot');
   src: url('../fonts/MuseoSansCyrl-700.eot?#iefix') format('embedded-opentype'),
   url('../fonts/MuseoSansCyrl-700.woff2') format('woff2'),
@@ -25,7 +25,7 @@
 }
 
 @font-face {
-  font-family: 'Museo Sans Cyrl 500';
+  font-family: 'Museo Sans Cyrl';
   src: url('../fonts/MuseoSansCyrl-500.eot');
   src: url('../fonts/MuseoSansCyrl-500.eot?#iefix') format('embedded-opentype'),
   url('../fonts/MuseoSansCyrl-500.woff2') format('woff2'),
@@ -38,7 +38,7 @@
 }
 
 @font-face {
-  font-family: 'Museo Sans Cyrl 100';
+  font-family: 'Museo Sans Cyrl';
   src: url('../fonts/MuseoSansCyrl-100.eot');
   src: url('../fonts/MuseoSansCyrl-100.eot?#iefix') format('embedded-opentype'),
   url('../fonts/MuseoSansCyrl-100.woff2') format('woff2'),
@@ -97,8 +97,7 @@
 }
 
 body {
-  font-family: $font-family-museo-500;
-  font-style: normal;
+  font-family: "Museo Sans Cyrl", sans-serif;
   font-weight: 500;
   font-size: 14px;
   line-height: 24px;
@@ -148,7 +147,6 @@ button {
 h1,
 h2,
 h3 {
-  font-family: $font-family-museo-700;
   font-weight: 700;
   font-style: normal;
 }
@@ -180,7 +178,6 @@ h3 {
 }
 
 p {
-  font-family: $font-family-museo-500;
   font-weight: 500;
   color: $black-color-40;
   font-size: 14px;

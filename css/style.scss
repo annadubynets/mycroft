@@ -10,7 +10,6 @@
 @import "mixins";
 
 .descriprion {
-  font-family: $font-family-museo-900;
   font-weight: 900;
   color: $black-color-40;
   font-size: 16px;
@@ -130,7 +129,6 @@ header {
     background-repeat: no-repeat;
     height: 225px;
     p {
-      font-family: $font-family-museo-900;
       font-weight: 900;
       font-size: 18px;
       line-height: 1.56;
@@ -152,14 +150,35 @@ header {
   }
 }
 
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.mt-90 {
+  margin-top: 90px;
+}
+
 .services {
   padding-bottom: 180px;
   .services-description {
-    font-family: $font-family-museo-900;
     font-weight: 900;
     color: $black-color-40;
     font-size: 14px;
     line-height: 24px;
+  }
+
+  .card {
+    padding: 15px;
+    cursor: pointer;
+    .card-title {
+      margin-top: 131px;
+    }
+    border: solid 4px #ffc400;
+    .card-body {
+      padding: 72px 40px 58px;
+      background-color: #f7f7f7;
+      margin-top: 34px;
+    }
   }
 
   .circle-img {
@@ -172,31 +191,68 @@ header {
     background-image: linear-gradient(149deg, #04b1ff 0%, #1c8df1 31%, #6321c8 122%);
   }
 
-  .delivery-style {
-    background-image: url("../images/delivery_icon.svg");
+  .delivery-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    width: 218px;
+    height: 224px;
+    background: url("../images/delivery.svg") no-repeat;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+  }
+
+  .design-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    width: 218px;
+    height: 224px;
+    background: url("../images/design.svg") no-repeat;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+  }
+  .team-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    width: 218px;
+    height: 224px;
+    background: url("../images/team.svg") no-repeat;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+  }
+
+  .img-style {
     background-repeat: no-repeat;
     background-position: center;
     position: relative;
     width: 80px;
     height: 80px;
+  }
+
+  .delivery-style {
+    background-image: url("../images/delivery_icon.svg");
   }
 
   .design-style {
     background-image: url("../images/design_icon.svg");
-    background-repeat: no-repeat;
-    background-position: center;
-    position: relative;
-    width: 80px;
-    height: 80px;
   }
 
   .team-style {
     background-image: url("../images/team_icon.svg");
-    background-repeat: no-repeat;
-    background-position: center;
-    position: relative;
-    width: 80px;
-    height: 80px;
   }
 }
 @media screen and (max-width: 576px) {
@@ -290,7 +346,7 @@ header {
 
   .form-control {
     color: $black-color-12;
-    font-family: $font-family-museo-100;
+    font-weight: 200;
     font-size: 14px;
     box-sizing: border-box;
     background-color: $white-color;
@@ -300,19 +356,18 @@ header {
     height: 100%;
     &::placeholder {
       color: $black-color-12;
-      font-family: $font-family-museo-100;
+      font-weight: 200;
       font-size: 14px;
     }
   }
 
   .custom-select {
     color: $black-color-12;
-    font-family: $font-family-museo-100;
+    font-weight: 200;
     font-size: 14px;
   }
 
   .country-title p {
-    font-family: $font-family-museo-700;
     font-weight: 700;
     color: $white-color;
     font-size: 24px;
@@ -361,7 +416,8 @@ footer {
   }
 
   ul li a {
-    font-family: $font-family-montserrat;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
     font-size: 14px;
     text-transform: uppercase;
     color: $white-color;
@@ -386,8 +442,41 @@ footer {
     padding-top: 29px;
     padding-bottom: 43px;
     p {
-      font-family: $font-family-opens;
+      font-family: 'Open Sans', sans-serif;
+      font-weight: 300;
     }
   }
 
+}
+
+.fade-in-animation {
+  animation: fadeIn 0.5s;
+  -webkit-animation: fadeIn 0.5s;
+  -moz-animation: fadeIn 0.5s;
+  -o-animation: fadeIn 0.5s;
+  -ms-animation: fadeIn 0.5s;
+}
+@keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-moz-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-webkit-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-o-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-ms-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
 }
