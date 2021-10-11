@@ -263,7 +263,12 @@ p {
   }
 }
 .navbar .navbar-brand-img {
-  height: 24px;
+  height: 30px;
+}
+@media (max-width: 992px) {
+  .navbar .navbar-brand-img {
+    height: 20px;
+  }
 }
 .navbar.main-navbar.scrolled {
   background-color: #111b19;

@@ -27,7 +27,10 @@
         }
     }
     .navbar-brand-img {
-        height: 24px;
+        height: 30px;
+        @media (max-width: 992px) {
+            height: 20px;
+        }
     }
     &.main-navbar.scrolled {
         background-color: $black-color-17;
