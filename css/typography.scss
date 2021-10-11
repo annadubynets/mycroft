@@ -1,205 +1,179 @@
 @font-face {
-  font-family: 'Museo Sans Cyrl';
-  src: url('../fonts/MuseoSansCyrl-900.eot');
-  src: url('../fonts/MuseoSansCyrl-900.eot?#iefix') format('embedded-opentype'),
-  url('../fonts/MuseoSansCyrl-900.woff2') format('woff2'),
-  url('../fonts/MuseoSansCyrl-900.woff') format('woff'),
-  url('../fonts/MuseoSansCyrl-900.ttf') format('truetype'),
-  url('../fonts/MuseoSansCyrl-900.svg#MuseoSansCyrl-900') format('svg');
-  font-weight: bold;
-  font-style: normal;
-  font-display: swap;
+    font-family: 'Museo Sans Cyrl';
+    src: url('../fonts/MuseoSansCyrl-900.eot');
+    src: url('../fonts/MuseoSansCyrl-900.eot?#iefix') format('embedded-opentype'), url('../fonts/MuseoSansCyrl-900.woff2') format('woff2'), url('../fonts/MuseoSansCyrl-900.woff') format('woff'), url('../fonts/MuseoSansCyrl-900.ttf') format('truetype'), url('../fonts/MuseoSansCyrl-900.svg#MuseoSansCyrl-900') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
 }
 
 @font-face {
-  font-family: 'Museo Sans Cyrl';
-  src: url('../fonts/MuseoSansCyrl-700.eot');
-  src: url('../fonts/MuseoSansCyrl-700.eot?#iefix') format('embedded-opentype'),
-  url('../fonts/MuseoSansCyrl-700.woff2') format('woff2'),
-  url('../fonts/MuseoSansCyrl-700.woff') format('woff'),
-  url('../fonts/MuseoSansCyrl-700.ttf') format('truetype'),
-  url('../fonts/MuseoSansCyrl-700.svg#MuseoSansCyrl-700') format('svg');
-  font-weight: 700;
-  font-style: normal;
-  font-display: swap;
+    font-family: 'Museo Sans Cyrl';
+    src: url('../fonts/MuseoSansCyrl-700.eot');
+    src: url('../fonts/MuseoSansCyrl-700.eot?#iefix') format('embedded-opentype'), url('../fonts/MuseoSansCyrl-700.woff2') format('woff2'), url('../fonts/MuseoSansCyrl-700.woff') format('woff'), url('../fonts/MuseoSansCyrl-700.ttf') format('truetype'), url('../fonts/MuseoSansCyrl-700.svg#MuseoSansCyrl-700') format('svg');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
 }
 
 @font-face {
-  font-family: 'Museo Sans Cyrl';
-  src: url('../fonts/MuseoSansCyrl-500.eot');
-  src: url('../fonts/MuseoSansCyrl-500.eot?#iefix') format('embedded-opentype'),
-  url('../fonts/MuseoSansCyrl-500.woff2') format('woff2'),
-  url('../fonts/MuseoSansCyrl-500.woff') format('woff'),
-  url('../fonts/MuseoSansCyrl-500.ttf') format('truetype'),
-  url('../fonts/MuseoSansCyrl-500.svg#MuseoSansCyrl-500') format('svg');
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
+    font-family: 'Museo Sans Cyrl';
+    src: url('../fonts/MuseoSansCyrl-500.eot');
+    src: url('../fonts/MuseoSansCyrl-500.eot?#iefix') format('embedded-opentype'), url('../fonts/MuseoSansCyrl-500.woff2') format('woff2'), url('../fonts/MuseoSansCyrl-500.woff') format('woff'), url('../fonts/MuseoSansCyrl-500.ttf') format('truetype'), url('../fonts/MuseoSansCyrl-500.svg#MuseoSansCyrl-500') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
 }
 
 @font-face {
-  font-family: 'Museo Sans Cyrl';
-  src: url('../fonts/MuseoSansCyrl-100.eot');
-  src: url('../fonts/MuseoSansCyrl-100.eot?#iefix') format('embedded-opentype'),
-  url('../fonts/MuseoSansCyrl-100.woff2') format('woff2'),
-  url('../fonts/MuseoSansCyrl-100.woff') format('woff'),
-  url('../fonts/MuseoSansCyrl-100.ttf') format('truetype'),
-  url('../fonts/MuseoSansCyrl-100.svg#MuseoSansCyrl-100') format('svg');
-  font-weight: 200;
-  font-style: normal;
-  font-display: swap;
+    font-family: 'Museo Sans Cyrl';
+    src: url('../fonts/MuseoSansCyrl-100.eot');
+    src: url('../fonts/MuseoSansCyrl-100.eot?#iefix') format('embedded-opentype'), url('../fonts/MuseoSansCyrl-100.woff2') format('woff2'), url('../fonts/MuseoSansCyrl-100.woff') format('woff'), url('../fonts/MuseoSansCyrl-100.ttf') format('truetype'), url('../fonts/MuseoSansCyrl-100.svg#MuseoSansCyrl-100') format('svg');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
 }
 
 @font-face {
-  font-family: 'Open Sans';
-  src: url('../fonts/OpenSans-Light.eot');
-  src: url('../fonts/OpenSans-Light.eot?#iefix') format('embedded-opentype'),
-  url('../fonts/OpenSans-Light.woff2') format('woff2'),
-  url('../fonts/OpenSans-Light.woff') format('woff'),
-  url('../fonts/OpenSans-Light.ttf') format('truetype'),
-  url('../fonts/OpenSans-Light.svg#OpenSans-Light') format('svg');
-  font-weight: 300;
-  font-style: normal;
-  font-display: swap;
+    font-family: 'Open Sans';
+    src: url('../fonts/OpenSans-Light.eot');
+    src: url('../fonts/OpenSans-Light.eot?#iefix') format('embedded-opentype'), url('../fonts/OpenSans-Light.woff2') format('woff2'), url('../fonts/OpenSans-Light.woff') format('woff'), url('../fonts/OpenSans-Light.ttf') format('truetype'), url('../fonts/OpenSans-Light.svg#OpenSans-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
 }
 
 @font-face {
-  font-family: 'Montserrat';
-  src: url('../fonts/Montserrat-Bold.eot');
-  src: url('../fonts/Montserrat-Bold.eot?#iefix') format('embedded-opentype'),
-  url('../fonts/Montserrat-Bold.woff2') format('woff2'),
-  url('../fonts/Montserrat-Bold.woff') format('woff'),
-  url('../fonts/Montserrat-Bold.ttf') format('truetype'),
-  url('../fonts/Montserrat-Bold.svg#Montserrat-Bold') format('svg');
-  font-weight: bold;
-  font-style: normal;
-  font-display: swap;
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat-Bold.eot');
+    src: url('../fonts/Montserrat-Bold.eot?#iefix') format('embedded-opentype'), url('../fonts/Montserrat-Bold.woff2') format('woff2'), url('../fonts/Montserrat-Bold.woff') format('woff'), url('../fonts/Montserrat-Bold.ttf') format('truetype'), url('../fonts/Montserrat-Bold.svg#Montserrat-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
 }
 
 .font-size-xs {
-  font-size: $font-size-xs;
+    font-size: $font-size-xs;
 }
 
 .font-size-sm {
-  font-size: $font-size-sm;
+    font-size: $font-size-sm;
 }
 
 .font-size-md {
-  font-size: $font-size-md;
+    font-size: $font-size-md;
 }
 
 .font-size-lg {
-  font-size: $font-size-lg;
+    font-size: $font-size-lg;
 }
 
 .font-size-xl {
-  font-size: $font-size-xl;
+    font-size: $font-size-xl;
 }
 
 body {
-  font-family: "Museo Sans Cyrl", sans-serif;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 24px;
-  padding: 0;
-  margin: 0;
+    font-family: "Museo Sans Cyrl", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    padding: 0;
+    margin: 0;
 }
 
 * {
-  margin: 0;
-  padding: 0;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 a:focus,
 input:focus,
 textarea:focus,
 button:focus {
-  text-decoration: none;
-  outline: none;
+    text-decoration: none;
+    outline: none;
 }
 
 ul {
-  list-style: none;
+    list-style: none;
 }
 
 a:focus,
 a:hover {
-  text-decoration: none;
+    text-decoration: none;
 }
 
 i,
 span,
 a {
-  display: inline-block;
+    display: inline-block;
 }
 
 button {
-  display: block;
+    display: block;
 }
 
 .custom-select:not(:disabled) {
-  background: url("../images/select_down.svg") no-repeat 94%, #FFFFFF!important;
+    background: url("../images/select_down.svg") no-repeat 94%, #FFFFFF!important;
 }
 
 h1,
 h2,
 h3 {
-  font-weight: 700;
-  font-style: normal;
+    font-weight: 700;
+    font-style: normal;
 }
 
-h1,
-{
-  font-size: 48px;
-  line-height: 85px;
-  color: $white-color;
-  margin: 0px;
+h1 {
+    font-size: 48px;
+    line-height: 85px;
+    color: $white-color;
+    margin: 0px;
 }
 
 @media screen and (max-width: 992px) {
-  h1 {
-    font-size: 42px;
-    line-height: 60px;
-  }
+    h1 {
+        font-size: 42px;
+        line-height: 60px;
+    }
 }
 
 h2 {
-  font-size: 36px;
-  line-height: 54px;
-  color: $black-color-29;
+    font-size: 36px;
+    line-height: 54px;
+    color: $black-color-29;
 }
 
 h3 {
-  font-size: 24px;
-  color: $black-color;
+    font-size: 24px;
+    color: $black-color;
 }
 
 p {
-  font-weight: 500;
-  color: $black-color-40;
-  font-size: 14px;
-  line-height: 24px;
-  margin: 0;
+    font-weight: 500;
+    color: $black-color-40;
+    font-size: 14px;
+    line-height: 24px;
+    margin: 0;
 }
 
 .font-weight-900 {
-  font-weight: 900!important;
+    font-weight: 900!important;
 }
 
 .mb-40 {
-  margin-bottom: 40px!important;
+    margin-bottom: 40px!important;
 }
 
 .pt-280 {
-  padding-top: 280px!important;
+    padding-top: 280px!important;
 }
 
 @media screen and (max-width: 768px) {
-  .pt-280 {
-    padding-top: 140px!important;
-  }
+    .pt-280 {
+        padding-top: 140px!important;
+    }
 }
-

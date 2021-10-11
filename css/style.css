@@ -277,7 +277,6 @@ p {
 .navbar-light .navbar-nav .nav-link {
   color: #ffffff;
   font-size: 12px;
-  padding: 0 8px;
   display: inline-block;
 }
 @media (min-width: 992px) {
