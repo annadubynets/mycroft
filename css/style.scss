@@ -20,7 +20,7 @@
         color: $white-color;
         text-decoration: none;
         &:hover {
-            color: $black-color-14;
+            color: $yellow-color;
         }
         @media (min-width: 992px) {
             font-size: 16px;
@@ -49,7 +49,7 @@
         color: $white-color;
     }
     &:hover {
-        color: $black-color-14;
+        color: $yellow-color;
     }
     .hover-effect {
         position: relative;
@@ -78,6 +78,9 @@
 }
 
 @media (max-width: 992px) {
+    .navbar-nav .nav-item .nav-link:after {
+        display: none;
+    }
     .navbar-light .navbar-nav {
         margin-top: 20px;
         .nav-link {

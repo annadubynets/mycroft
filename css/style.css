@@ -255,7 +255,7 @@ p {
   text-decoration: none;
 }
 .navbar a:hover {
-  color: #0e1a36;
+  color: #ffc400;
 }
 @media (min-width: 992px) {
   .navbar a {
@@ -291,7 +291,7 @@ p {
   }
 }
 .navbar-light .navbar-nav .nav-link:hover {
-  color: #0e1a36;
+  color: #ffc400;
 }
 .navbar-light .navbar-nav .nav-link .hover-effect {
   position: relative;
@@ -319,6 +319,10 @@ p {
 }
 
 @media (max-width: 992px) {
+  .navbar-nav .nav-item .nav-link:after {
+    display: none;
+  }
+
   .navbar-light .navbar-nav {
     margin-top: 20px;
   }
