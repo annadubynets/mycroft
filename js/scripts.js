@@ -34,4 +34,8 @@ NavbarTools.startScrollTracking = function() {
 
 $(function() {
     NavbarTools.startScrollTracking();
+
+    $('.navbar-nav>li>a').on('click', function() {
+        $('.navbar-collapse').collapse('hide');
+    });
 })
